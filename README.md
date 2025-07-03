@@ -2,7 +2,7 @@
 
 This Flutter app was built as **Task 5** during my internship at **CodeCraft**. It features a modern **QR Code Scanner** with:
 
-* 🔍 Real-time scanning using device camera
+* 🔍 Real-time scanning using the device camera
 * 💾 SQLite database integration (via `sqflite`) to store scanned results
 * 🌐 Link detection and redirection using `url_launcher`
 * 🧠 Smart result handling (copy, open URL, or view data)
@@ -36,10 +36,15 @@ This Flutter app was built as **Task 5** during my internship at **CodeCraft**. 
 
 ```txt
 assets/
-|fonts/
-│   └── 
+├── fonts/
+│   └── [font files]
 ├── images/
 │   └── logo.png
+├── screenshots/
+│   └── s1.jpeg
+│   └── s2.jpeg
+│   └── s3.jpeg
+│   └── s4.jpeg
 
 lib/
 ├── main.dart
@@ -48,15 +53,17 @@ lib/
 
 ---
 
-## 📸 Screenshots 
-Below are concise croped screenshots showcasing the main screens and functionality of the QR Code Scanner app:
+## 📸 Screenshots
 
-| Splash Screen                      | Scanner View                        | Result Screen                      |
-| ---------------------------------- | ----------------------------------- | ---------------------------------- |
-| ![](assets/screenshots/s1.jpeg) | ![](assets/screenshots/s2.jpeg) | ![](assets/screenshots/s3.jpeg) | ![](assets/screenshots/s4.jpeg) 
+Below are concise cropped screenshots showcasing the main screens and functionality of the QR Code Scanner app:
 
+| Splash Screen                   | Scanner View                    | Result Screen (URL)             |
+| ------------------------------- | ------------------------------- | ------------------------------- |
+| ![](assets/screenshots/s1.jpeg) | ![](assets/screenshots/s2.jpeg) | ![](assets/screenshots/s3.jpeg) |
 
-
+| Result Screen (Plain Text)      |
+| ------------------------------- |
+| ![](assets/screenshots/s4.jpeg) |
 
 ---
 
@@ -64,14 +71,14 @@ Below are concise croped screenshots showcasing the main screens and functionali
 
 1. Splash screen loads with animation
 2. Camera opens automatically with a scanning window
-3. When QR code is detected:
+3. When a QR code is detected:
 
-   * Data is stored in local DB
-   * Navigates to Result Screen
-4. Result screen options:
+   * Data is stored in the local database
+   * Navigates to the Result Screen
+4. Result Screen options:
 
    * 📋 Copy data to clipboard
-   * 🌐 Open in browser (if valid URL)
+   * 🌐 Open in browser (if it's a valid URL)
    * 🔁 Scan again
 
 ---
