@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # qr_code_scanner_app
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# CODECRAFT-AD-05
+Development of a QR Code Scanner 
+>>>>>>> 37c222a0eac570b0d97d507e442914fa97096a66
