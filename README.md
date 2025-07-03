@@ -49,10 +49,14 @@ lib/
 ---
 
 ## 📸 Screenshots 
+Below are concise croped screenshots showcasing the main screens and functionality of the QR Code Scanner app:
 
 | Splash Screen                      | Scanner View                        | Result Screen                      |
 | ---------------------------------- | ----------------------------------- | ---------------------------------- |
 | ![](assets/screenshots/s1.jpeg) | ![](assets/screenshots/s2.jpeg) | ![](assets/screenshots/s3.jpeg) | ![](assets/screenshots/s4.jpeg) 
+
+
+
 
 ---
 
