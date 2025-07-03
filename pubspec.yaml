@@ -1,0 +1,45 @@
+  name: qr_code_scanner_app
+  description: A Flutter QR code scanner app with local storage.
+  publish_to: 'none'
+  version: 1.0.0+1
+
+  environment:
+    sdk: ^3.8.1
+
+  dependencies:
+    flutter:
+      sdk: flutter
+    mobile_scanner: ^6.0.1
+    url_launcher: ^6.3.1
+    sqflite: ^2.3.3
+    path: ^1.8.3
+    cupertino_icons: ^1.0.8
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    flutter_lints: ^5.0.0
+
+  flutter:
+    uses-material-design: true
+    assets:
+      - assets/images/logo.png
+      - assets/fonts/Roboto-Regular.ttf
+      - assets/fonts/Roboto-Medium.ttf
+      - assets/fonts/Roboto-Bold.ttf
+      - assets/fonts/RobotoMono-Regular.ttf
+      - assets/fonts/RobotoMono-Light.ttf
+    fonts:
+      - family: Roboto
+        fonts:
+          - asset: assets/fonts/Roboto-Regular.ttf
+          - asset: assets/fonts/Roboto-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/Roboto-Bold.ttf
+            weight: 600
+      - family: RobotoMono
+        fonts:
+          - asset: assets/fonts/RobotoMono-Regular.ttf
+          - asset: assets/fonts/RobotoMono-Light.ttf
+            weight: 300
+
