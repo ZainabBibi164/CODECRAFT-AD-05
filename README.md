@@ -52,7 +52,7 @@ lib/
 
 | Splash Screen                      | Scanner View                        | Result Screen                      |
 | ---------------------------------- | ----------------------------------- | ---------------------------------- |
-| ![](assets/screenshots/s1.jpg) | ![](assets/screenshots/s2.jpg) | ![](assets/screenshots/s3.jpg) |
+| ![](assets/screenshots/s1.jpeg) | ![](assets/screenshots/s2.jpeg) | ![](assets/screenshots/s3.jpeg) | ![](assets/screenshots/s4.jpeg) 
 
 ---
 
